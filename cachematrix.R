@@ -19,7 +19,6 @@ makeCacheMatrix <- function(x = matrix()) {
 }
 
 ## Write a short comment describing this function
-
 cacheSolve <- function(x, ...) {
    inv = x$getinv()
   
@@ -33,4 +32,5 @@ cacheSolve <- function(x, ...) {
   
    x$setinv(inv)
  
-  return(inv)}
+  return(inv)
+  }
